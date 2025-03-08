@@ -4,7 +4,8 @@ import ThemeChanger from './components/ThemeChanger';
 import ClockSettings from './components/ClockSettings';
 
 function App() {
-  const [workTime, setWorkTime] = useState(25 * 60);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [_, setWorkTime] = useState(25 * 60);
 
   return (
     <>
